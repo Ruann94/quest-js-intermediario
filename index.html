@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário com Validação - Quest JS Intermediário</title>
+
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="conteudo">
+            <h1>FICOU COM DÚVIDA? <br>
+                NOS MANDE UMA MENSAGEM!</h1>
+            <p class="descricao">Caso tenha ficado com qualquer dúvida <br> basta nos mandar uma mensagem e <br> entraremos em contato em menos de 24h.</p>
+        </div>
+    
+
+        <form class="formulario">
+            <input class="campo" type="text" placeholder="Nome Completo*">
+
+            <span class="formNull"></span>
+            
+            <input class="campo" type="text" placeholder="Email*">
+
+            <span class="formNull"></span>
+
+            <input class="campo" type="text" placeholder="Telefone*">
+
+            <span class="formNull"></span>
+
+            <textarea class="mensagem campo" name="mensagem" placeholder="Mensagem*" id="" cols="30" rows="10"></textarea>
+
+            <span class="formNull"></span>
+
+            <div class="obrigatorio">
+                <p>*Campos Obrigatórios</p>
+            </div>
+
+            <div>
+                <button class="enviar" id="enviar">Enviar</button>
+            </div>
+        </form>
+    </div>
+    
+    <script src="src/js/index.js"></script>
+</body>
+</html>
